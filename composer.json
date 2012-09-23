@@ -1,0 +1,16 @@
+{
+  "name": "naenius/deusim",
+  "description": "Experimental ventures in self-learning applications using PHP",
+  "license": "GPL-3.0+",
+  "require": {
+    "cilex/cilex": "dev-master@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "3.7.*@stable"
+  },
+  "autoload": {
+    "psr-0": {
+      "Deusim": "src/"
+    }
+  }
+}
